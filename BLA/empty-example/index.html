@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="../p5.min.js"></script>
+    <script src="../addons/p5.dom.min.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  </head>
+  <body>  
+          <header>Bresenham's Line Drawing Algorithm</header>
+          <div class = "navigation" id = "navigationID">
+              <div class = 'inputFields'>
+              <p>Enter the coordinates for (x1, y1) & (x2, y2)</p>
+              <p class = 'note'>Make sure that x2 > x1 and y2 > y1.</p>
+              <label for="x1" >x1</label>
+              <input type="text" id = 'x1Value' placeholder=" X1 Value" required > 
+              <label for="y1">y1</label>
+              <input type="text" id = 'y1Value' placeholder=" Y1 Value" required> 
+              <label for="x2">x2</label>
+              <input type="text" id = 'x2Value' placeholder=" X2 Value" required> 
+              <label for="y2">y2</label>
+              <input type="text" id = 'y2Value' placeholder=" Y2 Value" required> 
+              <button onclick = 'setCoodrinate()' id = 'buttonID'> Draw</button>
+              <button id = 'refreshButton' class = 'refreshButtonClass' onclick = 'window.location.reload()'> Refresh</button>
+              </div>
+         </div>
+         <div id = 'canvas' class = 'canvasClass'>
+           
+         </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>

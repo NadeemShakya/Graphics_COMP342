@@ -1,0 +1,92 @@
+body {
+	padding:0;
+	border:0;
+	background-color: rgb(242, 242, 242);
+	color:grey;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+* {
+	box-sizing: border-box;	;
+
+}
+
+header {
+	text-align: center;
+	margin-top:20px;
+	font-size:30px;
+	color: #02b875;
+}
+.navigation {
+	display: block;	
+	margin:10px auto;
+	width:90%;
+	/*background-color: red;*/
+	padding:5px;
+}
+.inputFields {
+	width:80%;
+	display: table;
+	margin:0 auto;
+}
+.canvasClass {
+	/*display: none;*/
+	display: block;
+	margin:0 auto;
+	width:99%;
+	overflow-x: hidden;
+}
+.navigation p {
+	text-align: center;
+}
+
+.note {
+	color:red;
+}
+button {
+	width:6%;
+	display:table-cell;
+	height:35px;
+	font-size:12px;
+	background-color: #02b875;
+	border:none;
+	color:#fff;
+	box-shadow: 1px 1px 3px 1px black;
+	border-radius: 	2px;
+	margin-right: 10px;
+}
+
+button:hover {
+	cursor:pointer;
+	box-shadow: 1px 1px 8px 1px black;
+	transition:0.2s;
+
+}
+
+.refreshButtonClass {
+	display: none;
+}
+input[type = "text"] {
+	display: table-cell;
+	border-radius: 	3px;
+	border:1px solid grey;
+	height:40px;
+	width:85px;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	width:17%;
+}
+
+@media only screen and (max-width: 768px) {
+body {
+
+}
+input[type = "text"] {
+	width:120px;
+	display:block;
+}
+
+		
+}
