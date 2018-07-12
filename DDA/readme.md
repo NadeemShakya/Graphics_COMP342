@@ -3,8 +3,8 @@
 To use histogram follow the following steps:
 
 1) Open 'index.html' using any text editor.
-2) Comment out '<script src = 'lineChart.js'></script>' line;
-3) Remove comment from the line '<script src = 'histogram.js'></script>' line.
+<!-- 2) Comment out '<script src = 'lineChart.js'></script>' line; -->
+<!-- 3) Remove comment from the line '<script src = 'histogram.js'></script>' line. -->
 4) Hit Save and Run index.html.
 '
 To add values for Histogram.
@@ -21,8 +21,8 @@ To add values for Histogram.
 To use LineChart follow the following steps:
 
 1) Open 'index.html' using any text editor.
-2) Remove comment from the line '<script src = 'lineChart.js'></script>' line;
-3) Comment out the line '<script src = 'histogram.js'></script>' line.
+<!-- 2) Remove comment from the line '<script src = 'lineChart.js'></script>' line; -->
+<!-- 3) Comment out the line '<script src = 'histogram.js'></script>' line. -->
 4) Hit Save and Run index.html.
 
 To add values for LineChart.
