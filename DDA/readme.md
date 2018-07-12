@@ -1,4 +1,5 @@
-#USING HISTOGRAM
+</b> USING HISTOGRAM </b>
+
 To use histogram follow the following steps:
 
 1) Open 'index.html' using any text editor.
@@ -10,8 +11,9 @@ To add values for Histogram.
 
 1) Inside of 'histogram.js' set the barValue in line 6.
 2) Default values are set as: "let barValue = [220, 35, 50, 100, 66, 58, 10, 68, 22, 133]";
+<img src = "../image/histogram.PNG width = "600px" >
 
-#USING LINECHART
+<b> USING LINECHART </b>
 
 To use LineChart follow the following steps:
 
@@ -25,4 +27,5 @@ To add values for LineChart.
 1) Inside of 'lineChart.js', set the chartline value in line 6.
 2) Default values are set as : "let chartLine = [0, 10, 20, 50, 0, 14, 66, 02, 55, 59, 47, 150, 200, 55, 20];"
 
+<img src = "../image/linechart.PNG width = "600px" >
 
