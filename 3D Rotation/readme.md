@@ -2,4 +2,4 @@
 <h4> Rotation along X, Y or Z axis. </h4>
 
 
-<img src = '..images/rotation.png' width = "600px">
+<img src = '..images/rotation.PNG' width = "600px">
