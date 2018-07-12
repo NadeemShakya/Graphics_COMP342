@@ -29,6 +29,9 @@ To add values for LineChart.
 1) Inside of 'lineChart.js', set the chartline value in line 6.
 2) Default values are set as : "let chartLine = [0, 10, 20, 50, 0, 14, 66, 02, 55, 59, 47, 150, 200, 55, 20];"
 </p>
+<label> Histogram </label>
+<img src = "../images/histogram.PNG" width = "600px">
+<label> Linechart </label>
+<img src = "../images/linechart.PNG" width = "600px">
 
-<img src = "../images/histrogram.PNG" width = "600px">
 
