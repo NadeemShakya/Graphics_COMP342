@@ -6,7 +6,7 @@ To use histogram follow the following steps:
 2) Comment out '<script src = 'lineChart.js'></script>' line;
 3) Remove comment from the line '<script src = 'histogram.js'></script>' line.
 4) Hit Save and Run index.html.
-'
+
 To add values for Histogram.
 
 1) Inside of 'histogram.js' set the barValue in line 6.
