@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(255, 247, 250);
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: block;
+  /* text-align: center; */
+}
+
+input[type='number'] {
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  font-size: 12px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(240, 74, 88);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius:2px;
+}
+
+label {
+  font-weight:bold;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
