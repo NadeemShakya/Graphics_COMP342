@@ -1,4 +1,4 @@
-</b> USING HISTOGRAM </b>
+<b> USING HISTOGRAM </b>
 
 To use histogram follow the following steps:
 
