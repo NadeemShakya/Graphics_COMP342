@@ -12,6 +12,7 @@ To add values for Histogram.
 1) Inside of 'histogram.js' set the barValue in line 6.
 2) Default values are set as: "let barValue = [220, 35, 50, 100, 66, 58, 10, 68, 22, 133];"
 </p>
+
 <img src = "../images/histogram.PNG width = "600px" >
 
 <b> USING LINECHART </b>
